@@ -1,4 +1,4 @@
 #App Movies
 ***
-Maicol Stiven Campos Velez
-Santiago Cardona Arboleda
+-Maicol Stiven Campos Velez
+-Santiago Cardona Arboleda
