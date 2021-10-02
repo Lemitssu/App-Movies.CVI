@@ -1,5 +1,4 @@
-# Proyecto Final: App Movies: Clase de construccion V
+#App Movies
 ***
-- Fabian Adrian Henao Tangarife
-- Lesly Alejandra Puerta Gil
-- Edier David Martinez Espejo
+Maicol Stiven Campos Velez
+Santiago Cardona Arboleda
