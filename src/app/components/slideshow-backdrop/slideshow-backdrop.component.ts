@@ -9,29 +9,27 @@ import { DetalleComponent } from '../detalle/detalle.component';
   styleUrls: ['./slideshow-backdrop.component.scss'],
 })
 export class SlideshowBackdropComponent implements OnInit {
+
   @Input() peliculas: Pelicula[] = [];
 
   slideOpts = {
-    initialSlide: 0,
     slidesPerView: 1.3,
-    freeMode: true,
-    speed: 300,
-    spaceBetween: 8,
-    loop: true,
+    freeMode: true
   };
 
-  constructor(private modalCtrl: ModalController) {}
+  constructor( private modalCtrl: ModalController ) { }
 
   ngOnInit() {}
 
-  async verDetalle(id: number) {
+  async verDetalle( id: string){
     const modal = await this.modalCtrl.create({
       component: DetalleComponent,
       componentProps: {
         id
-      },
+      }
     });
 
     modal.present();
   }
+
 }

@@ -10,8 +10,8 @@ import { DetalleComponent } from './detalle/detalle.component';
 
 
 @NgModule({
-  entryComponents: [
-    DetalleComponent,
+  entryComponents:[
+    DetalleComponent
   ],
   declarations: [
     SlideshowBackdropComponent,
